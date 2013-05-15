@@ -1,22 +1,37 @@
+body {
+  background-color: #cccccc;
+}
 
+.nav {
+  border: 1px solid #407794;
+  background-color: #999999;
+}
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+.nav-list {
+  color: #ffffff;
+  padding: 0 0 0 0;
+}
 
+.nav-list li {
+  border-bottom: 1px solid #ffffff;
+}
 
+.nav-list ul {
+  margin-left: 5px;
+  border: none;
+}
 
+.nav-list ul li {
+  border-bottom: none;
+}
 
+.nav-list a {
+  padding-left: 10px;
+  margin: 0 0 0 0 !important; 
+  color: #ffffff;
+  text-shadow: none !important;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.nav-list a:hover {
+  color: #407794;
+}
