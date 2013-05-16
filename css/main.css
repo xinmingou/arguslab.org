@@ -69,3 +69,9 @@ footer {
 .align-center {
   text-align: center;
 }
+
+.profile-pic {
+  float: left;
+  margin-right: 5px;
+  max-width: 120px;
+}
