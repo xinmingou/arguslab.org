@@ -2,8 +2,25 @@ body {
   background-color: #cccccc;
 }
 
+a, 
+a:visited,
+a:hover,
+a:active {
+  color: #0f395e;
+}
+
+footer {
+  margin: 10px 0 0 0;
+  padding: 10px 10px 10px 10px;
+  background-color: #999999;
+  text-align: center;
+}
+
+.left-nav {
+  background-color: #999999;
+}
+
 .nav {
-  border: 1px solid #407794;
   background-color: #999999;
 }
 
@@ -12,17 +29,20 @@ body {
   padding: 0 0 0 0;
 }
 
-.nav-list li {
+.nav-list > li {
+  font-weight: bold;
   border-bottom: 1px solid #ffffff;
 }
 
 .nav-list ul {
   margin-left: 5px;
   border: none;
+  list-style: none;
 }
 
 .nav-list ul li {
   border-bottom: none;
+  padding-left: 20px;
 }
 
 .nav-list a {
@@ -34,4 +54,18 @@ body {
 
 .nav-list a:hover {
   color: #407794;
+}
+
+.main-content {
+  background-color: #e7e8e9;
+} 
+
+.section-header {
+  color: #ffffff;
+  background-color: #0f395e;
+  padding: 5px 5px 5px 5px;
+}
+
+.align-center {
+  text-align: center;
 }
