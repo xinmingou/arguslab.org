@@ -75,3 +75,24 @@ footer {
   margin-right: 5px;
   max-width: 120px;
 }
+
+.paper-title {
+  font-weight: bold;
+  color: #0f395e;
+  background-color: red;
+}
+
+.paper-authors {
+  background-color: yellow;
+}
+
+.paper-publisher {
+  font-style: italic;
+  background-color: green;
+}
+
+.paper-location {
+  background-color: blue;
+}
+
+
