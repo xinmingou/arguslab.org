@@ -1,0 +1,4 @@
+Options -Indexes
+
+ErrorDocument 404 http://people.cis.ksu.edu/~colecoop/argus/404.html
+

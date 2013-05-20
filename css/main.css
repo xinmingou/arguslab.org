@@ -2,13 +2,6 @@ body {
   background-color: #cccccc;
 }
 
-a, 
-a:visited,
-a:hover,
-a:active {
-  color: #0f395e;
-}
-
 footer {
   margin: 10px 0 0 0;
   padding: 10px 10px 10px 10px;
