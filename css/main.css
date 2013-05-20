@@ -31,7 +31,7 @@ footer {
 
 .nav-list > li {
   font-weight: bold;
-  border-bottom: 1px solid #ffffff;
+  border-top: 1px solid #ffffff;
 }
 
 .nav-list ul {
@@ -41,7 +41,6 @@ footer {
 }
 
 .nav-list ul li {
-  border-bottom: none;
   padding-left: 20px;
 }
 
@@ -79,20 +78,16 @@ footer {
 .paper-title {
   font-weight: bold;
   color: #0f395e;
-  background-color: red;
 }
 
 .paper-authors {
-  background-color: yellow;
 }
 
 .paper-publisher {
   font-style: italic;
-  background-color: green;
 }
 
 .paper-location {
-  background-color: blue;
 }
 
 
