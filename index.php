@@ -16,15 +16,7 @@
   <link rel="stylesheet" href="css/main.css">
 
   <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-  <script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.latest.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function() {
-          $('.slideshow').cycle({
-                fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
-          });
-    });
-  </script>
-</head>
+  </head>
 <body>
   <!--[if lt IE 7]>
   <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
@@ -46,16 +38,22 @@
     <!-- Main Content -->
     <div class="span9">
       <div class="row">
-        <div class="span9 text-center slideshow">
+        <div class="span9 text-center">
+          <div class="slideshow">
           <?php
-            if ($dir = opendir('images/rotator')) {
+            if ($dir = opendir('img/rotator')) {
               while (false != ($img = readdir($dir))) {
-                if ($img != "." && $img != ".." && $img != "archive") {
-                  print '<img src="images/rotator' . $img . '" alt="Argus Cybersecurity Lab" />' . "\n";
+                if ($img != "." && $img != "..") {
+                  if (file_exists('img/rotator/thumbnails/' . $img)) {
+                    print '<a href="img/rotator/' . $img . '">';
+                    print '<img width="700" height="350" src="img/rotator/thumbnails/' . $img . '" alt="Argus Cybersecurity Lab" />';
+                    print '</a>';
+                  } 
                 }
               }
             }
           ?>
+          </div>
         </div>
       </div>
       <div class="row">
@@ -93,6 +91,8 @@
         <!-- In The News Widget -->
         <div class="span3">
           <h6 class="section-header">In The News</h6>
+          <div id="news">
+          </div>
         </div>
       </div>
     </div>    
@@ -113,6 +113,34 @@
     (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
     g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
     s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+  <script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.latest.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('.slideshow').cycle({
+        speed: 500,
+        fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+      });
+
+      $(function(){
+        $.ajax({
+          type: "GET",
+          url: "getRSS.php",
+          dataType: "xml",
+          success: function(xml) {
+            var list = "<ul>";
+            $(xml).find('item:lt(8)').each(function() {
+              var title = $(this).find('title').text();
+              var url = $(this).find('link').text();
+              list += '<li><a href="' + url + '">' + title + '</a></li>';
+            });
+            list += '</ul>';
+            $("#news").html(list);
+          }
+        });
+      });
+      
+    });
   </script>
 </body>
 </html>
