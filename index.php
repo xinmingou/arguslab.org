@@ -16,6 +16,14 @@
   <link rel="stylesheet" href="css/main.css">
 
   <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+  <script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.latest.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+          $('.slideshow').cycle({
+                fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+          });
+    });
+  </script>
 </head>
 <body>
   <!--[if lt IE 7]>
@@ -38,9 +46,16 @@
     <!-- Main Content -->
     <div class="span9">
       <div class="row">
-        <div class="span9 text-center">
-          <img src="img/group12.jpg" alt="Argus Cybersecurity Research Group">
-          <i>Research Group Photo Fall 2012</i>
+        <div class="span9 text-center slideshow">
+          <?php
+            if ($dir = opendir('images/rotator')) {
+              while (false != ($img = readdir($dir))) {
+                if ($img != "." && $img != ".." && $img != "archive") {
+                  print '<img src="images/rotator' . $img . '" alt="Argus Cybersecurity Lab" />' . "\n";
+                }
+              }
+            }
+          ?>
         </div>
       </div>
       <div class="row">
