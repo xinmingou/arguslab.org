@@ -119,7 +119,7 @@
     $(document).ready(function() {
       $('.slideshow').cycle({
         speed: 750,
-        fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+        fx: 'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
         width: 700,
         height: 350
       });
