@@ -114,7 +114,7 @@
     g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
     s.parentNode.insertBefore(g,s)}(document,'script'));
   </script>
-  <script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.latest.js"></script>
+  <script type="text/javascript" src="js/jquery.cycle.all.js"></script>
   <script type="text/javascript">
     $(document).ready(function() {
       $('.slideshow').cycle({
@@ -122,22 +122,20 @@
         fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
       });
 
-      $(function(){
-        $.ajax({
-          type: "GET",
-          url: "getRSS.php",
-          dataType: "xml",
-          success: function(xml) {
-            var list = "<ul>";
-            $(xml).find('item:lt(8)').each(function() {
-              var title = $(this).find('title').text();
-              var url = $(this).find('link').text();
-              list += '<li><a href="' + url + '">' + title + '</a></li>';
-            });
-            list += '</ul>';
-            $("#news").html(list);
-          }
-        });
+      $.ajax({
+        type: "GET",
+        url: "getRSS.php",
+        dataType: "xml",
+        success: function(xml) {
+          var list = "<ul>";
+          $(xml).find('item:lt(8)').each(function() {
+            var title = $(this).find('title').text();
+            var url = $(this).find('link').text();
+            list += '<li><a href="' + url + '">' + title + '</a></li>';
+          });
+          list += '</ul>';
+          $("#news").html(list);
+        }
       });
       
     });
