@@ -116,14 +116,16 @@
   </script>
   <script type="text/javascript" src="js/jquery.cycle.all.js"></script>
   <script type="text/javascript">
-    $(document).ready(function() {
+    $(window).load(function() {
       $('.slideshow').cycle({
         speed: 750,
         fx: 'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
         width: 700,
         height: 350
       });
+    });
 
+    $(document).ready(function() {
       $.ajax({
         type: "GET",
         url: "getRSS.php",
