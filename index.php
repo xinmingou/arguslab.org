@@ -78,7 +78,13 @@
             security status. Our research aims at providing the
             enabling technologies for such automated correlation and
             analysis, with solid theoretical foundation and empirical
-            study. 
+            study. We also investigate ground-breaking new security 
+            technologies that could fundamentally change the game of 
+            cyber warfare to defender's advantage, by introducing vigility, 
+            dynamism, and diversity in a "moving-target defense" cloud system. 
+            Argus research has been supported by the National Science Foundation, 
+            Department of Defense, Department of Energy, National Institute of
+            Standards and Technology, and HP Labs.
           </p>
           <p>
             The group is named after the giant <a href="https://en.wikipedia.org/wiki/Argus_Panoptes">Argus</a>
