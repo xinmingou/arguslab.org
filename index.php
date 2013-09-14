@@ -43,7 +43,8 @@
           <?php
             if ($dir = opendir('img/rotator')) {
               while (false != ($img = readdir($dir))) {
-                if ($img != "." && $img != "..") {
+                $extension = pathinfo($img);
+                if (($img != ".") && ($img != "..") && ($extension['extension'] == "jpg")) {
                   if (file_exists('img/rotator/thumbnails/' . $img)) {
                     print '<a href="img/rotator/' . $img . '">';
                     print '<img width="700" height="350" src="img/rotator/thumbnails/' . $img . '" alt="Argus Cybersecurity Lab" />';
