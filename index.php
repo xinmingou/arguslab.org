@@ -98,7 +98,7 @@
         <!-- In The News Widget -->
         <div class="span3">
           <h6 class="section-header">News</h6>
-          <div id="news">
+          <div>
           <ul>
             <li>The anthropology project was funded by the National Science Foundation. <br>
                 <a href="http://www.k-state.edu/media/newsreleases/nov13/anthrocomp11713.html?id=10987&category=research&referredBy=email">News Release
