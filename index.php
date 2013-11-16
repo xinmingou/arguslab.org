@@ -75,13 +75,13 @@
             We believe that successful cyber defense can only be achieved through automated 
             coordination of various observation and action points in a network environment,
             and through fundamentally changing the way IT systems are created and managed
-            in a way that obviates the many security problems we face today.
+            to obviate the many security problems we face today.
             "Point solutions" like firewalls and traditional IDS systems are limited in 
             effectiveness since they only look at one aspect of the system and lack the
-            capability of "connecting the dots" among various information sources to gain 
-            a global picture of a system's security status. Moreover, they tend to focus
-            more on "dealing with" the manifested problems rather than eradicating the problems
-            by going after their root causes. Our research aims at providing the
+            analytic capability of "connecting the dots" among various information sources. 
+            Moreover, they tend to focus
+            more on dealing with the <i>manifested problems</i> rather than eradicating the problems
+            by going after their <i>root causes</i>. Our research aims at providing the
             enabling technologies for automated security analytics, with solid theoretical 
             foundation and empirical study. We also investigate ground-breaking new security 
             technologies that could fundamentally change the game of cyber warfare to defender's 
