@@ -10,6 +10,7 @@ footer {
 }
 
 .justify {text-align: justify}
+.rightpadded {margin-right: 10px}
 
 .left-nav {
   background-color: #999999;
