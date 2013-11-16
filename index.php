@@ -87,7 +87,7 @@
             technologies that could fundamentally change the game of cyber warfare to defender's 
             advantage. 
           </p>
-          <p>
+          <p class="justify">
             Argus research has been supported by the National Science Foundation, 
             Department of Defense, Department of Energy, National Institute of
             Standards and Technology, and HP Labs.
