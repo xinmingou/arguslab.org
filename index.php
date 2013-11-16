@@ -100,7 +100,7 @@
           <h6 class="section-header">News</h6>
           <div>
           <ul>
-            <li>The <a href="anthro.sec">anthropology project</a> was funded by the National Science Foundation.<br>
+            <li>The <a href="anthrosec.html">anthropology project</a> was funded by the National Science Foundation.<br>
                 <a href="http://www.k-state.edu/media/newsreleases/nov13/anthrocomp11713.html?id=10987&category=research&referredBy=email">News Release</a>.
             </li>
             <li>
@@ -108,8 +108,8 @@
                  was held at the University of Missouri-Kansas City.
              </li>
              <li>
-                 Prof. Xinming Ou received $605,650 grant from the Air Force Office of Scientific Research
-                 through the Defense University Research Instrumentation Program (DURIP).
+                 Prof. Xinming Ou received $605,650 grant from AFOSR
+                 through the DURIP program.
                  <a href="http://www.wpafb.af.mil/news/story.asp?id=123353723">News Release</a>.
              </li>
              <li>
