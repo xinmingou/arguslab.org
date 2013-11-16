@@ -61,7 +61,7 @@
         <!-- About Us -->
         <div class="span6">
           <h6 class="section-header">About Us</h6>
-          <p>
+          <p class="justify">
             The Argus group was founded by <a href="http://people.cis.ksu.edu/%7Exou/">
             Dr. Xinming (Simon) Ou</a> in 2006 to carry out cyber security research. Our
             focus is on the defense aspect of the cyber space, and our philosophy is to
@@ -71,7 +71,7 @@
             pressing problems of the time, and provides the scientific basis for solutions
             that can stand the test of time.
           </p>
-          <p>
+          <p class="justify">
             We believe that successful cyber defense can only be achieved through automated 
             coordination of various observation and action points in a network environment,
             and through fundamentally changing the way IT systems are created and managed

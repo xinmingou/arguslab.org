@@ -9,6 +9,8 @@ footer {
   text-align: center;
 }
 
+.justify {text-align: justify}
+
 .left-nav {
   background-color: #999999;
 }
