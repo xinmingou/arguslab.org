@@ -62,37 +62,39 @@
         <div class="span6">
           <h6 class="section-header">About Us</h6>
           <p>
-            The Argus group was founded by <a href="http://people.cis.ksu.edu/%7Exou/">Dr. Xinming (Simon)
-            Ou</a> in 2006 to carry out cyber security research. Our
-            focus is on the defense aspect of the cyber warfare, and
-            our philosophy is that successful cyber defense can only
-            be achieved through automated coordination of various
-            observation and action points in an enterprise
-            environment.
+            The Argus group was founded by <a href="http://people.cis.ksu.edu/%7Exou/">
+            Dr. Xinming (Simon) Ou</a> in 2006 to carry out cyber security research. Our
+            focus is on the defense aspect of the cyber space, and our philosophy is to
+            start from real problems, and create solutions that last. Our research
+            attempts to address the root causes of the various cybersecurity problems,
+            and we work closely with industry to ensure our work both addresses the most
+            pressing problems of the time, and provides the scientific basis for solutions
+            that will withstand the test of times.
           </p>
           <p>
-            "Point solutions" like firewalls and
-            traditional IDS systems are limited in effectiveness since
-            they only look at one aspect of the system and lack the
-            capability of "connecting the dots" among various
-            information sources to gain a global picture of a system's
-            security status. Our research aims at providing the
-            enabling technologies for such automated correlation and
-            analysis, with solid theoretical foundation and empirical
-            study. We also investigate ground-breaking new security 
-            technologies that could fundamentally change the game of 
-            cyber warfare to defender's advantage, by introducing vigility, 
-            dynamism, and diversity in a "moving-target defense" cloud system. 
+            We believe that successful cyber defense can only be achieved through automated 
+            coordination of various observation and action points in a network environment,
+            and through fundamentally changing the way IT systems are created and managed
+            in a way that obviates the many security problems we face today.
+            "Point solutions" like firewalls and traditional IDS systems are limited in 
+            effectiveness since they only look at one aspect of the system and lack the
+            capability of "connecting the dots" among various information sources to gain 
+            a global picture of a system's security status. Moreover, they tend to focus
+            more on "dealing with" the manifested problems rather than eradicating the problems
+            by going after their root causes. Our research aims at providing the
+            enabling technologies for automated security analytics, with solid theoretical 
+            foundation and empirical study. We also investigate ground-breaking new security 
+            technologies that could fundamentally change the game of cyber warfare to defender's 
+            advantage. 
           </p>
           <p>
             Argus research has been supported by the National Science Foundation, 
             Department of Defense, Department of Energy, National Institute of
             Standards and Technology, and HP Labs.
             The group is named after the giant <a href="https://en.wikipedia.org/wiki/Argus_Panoptes">Argus</a>
-            in Greek mythology, who has a hundred eyes that constantly 
-            watch for enemies.
+            in Greek mythology, who has a hundred eyes that constantly watch for enemies.
           </p>
-          <h6 class="section-header">CyberSecurity Research Group</h6>
+          <h6 class="section-header">Our Motto</h6>
           <b>Start from REAL problems, create solutions that LAST</b>
         </div>
         <!-- In The News Widget -->
@@ -100,16 +102,15 @@
           <h6 class="section-header">News</h6>
           <div>
           <ul>
-            <li>The <a href="anthrosec.html">anthropology project</a> was funded by the National Science Foundation.<br>
+            <li>The <a href="anthrosec.html">anthropology project</a> received $700K funding from the National Science Foundation.<br>
                 <a href="http://www.k-state.edu/media/newsreleases/nov13/anthrocomp11713.html?id=10987&category=research&referredBy=email">News Release</a>.
             </li>
             <li>
-                 The <a href="http://nmslab.sce.umkc.edu/kansec/">fourth Greater Kansas Area Security Workshop</a>
+                 The <a href="http://nmslab.sce.umkc.edu/kansec/">fourth KanSec Workshop</a>
                  was held at the University of Missouri-Kansas City.
              </li>
              <li>
-                 Prof. Xinming Ou received $605,650 grant from AFOSR
-                 through the DURIP program.
+                 Prof. Xinming Ou received a $606K grant from AFOSR through the DURIP program.
                  <a href="http://www.wpafb.af.mil/news/story.asp?id=123353723">News Release</a>.
              </li>
              <li>
