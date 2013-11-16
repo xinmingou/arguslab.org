@@ -69,7 +69,7 @@
             attempts to address the root causes of the various cybersecurity problems,
             and we work closely with industry to ensure our work both addresses the most
             pressing problems of the time, and provides the scientific basis for solutions
-            that will withstand the test of times.
+            that can stand the test of time.
           </p>
           <p>
             We believe that successful cyber defense can only be achieved through automated 
