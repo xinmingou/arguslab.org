@@ -97,8 +97,22 @@
         </div>
         <!-- In The News Widget -->
         <div class="span3">
-          <h6 class="section-header">In The News</h6>
+          <h6 class="section-header">News</h6>
           <div id="news">
+          <ul>
+            <li>The anthropology project was funded by the National Science Foundation. <br>
+                <a href="http://www.k-state.edu/media/newsreleases/nov13/anthrocomp11713.html?id=10987&category=research&referredBy=email">News Release
+                </a>
+            </li>
+            <li>
+                 The <a href="http://nmslab.sce.umkc.edu/kansec/"><b>fourth Greater Kansas Area Security Workshop</b></a>
+                  was held at the University of Missouri-Kansas City.
+             </li>
+             <li>
+                 <a href="http://cacm.acm.org/news/149748-adaptive-networks-aim-to-thwart-cybercriminals/fulltext"> 
+                 CACM's coverage </a> on our moving-target defense research.
+             </li>
+          </ul>
           </div>
         </div>
       </div>
