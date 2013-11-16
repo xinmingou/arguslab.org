@@ -100,17 +100,21 @@
           <h6 class="section-header">News</h6>
           <div>
           <ul>
-            <li>The anthropology project was funded by the National Science Foundation. <br>
-                <a href="http://www.k-state.edu/media/newsreleases/nov13/anthrocomp11713.html?id=10987&category=research&referredBy=email">News Release
-                </a>
+            <li>The <a href="anthro.sec">anthropology project</a> was funded by the National Science Foundation.<br>
+                <a href="http://www.k-state.edu/media/newsreleases/nov13/anthrocomp11713.html?id=10987&category=research&referredBy=email">News Release</a>.
             </li>
             <li>
-                 The <a href="http://nmslab.sce.umkc.edu/kansec/"><b>fourth Greater Kansas Area Security Workshop</b></a>
-                  was held at the University of Missouri-Kansas City.
+                 The <a href="http://nmslab.sce.umkc.edu/kansec/">fourth Greater Kansas Area Security Workshop</a>
+                 was held at the University of Missouri-Kansas City.
+             </li>
+             <li>
+                 Prof. Xinming Ou received $605,650 grant from the Air Force Office of Scientific Research
+                 through the Defense University Research Instrumentation Program (DURIP).
+                 <a href="http://www.wpafb.af.mil/news/story.asp?id=123353723">News Release</a>.
              </li>
              <li>
                  <a href="http://cacm.acm.org/news/149748-adaptive-networks-aim-to-thwart-cybercriminals/fulltext"> 
-                 CACM's coverage </a> on our moving-target defense research.
+                 CACM's coverage</a> on our moving-target defense research.
              </li>
           </ul>
           </div>
