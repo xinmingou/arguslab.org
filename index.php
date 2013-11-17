@@ -80,8 +80,8 @@
             effectiveness since they only look at one aspect of the system and lack the
             analytic capability of "connecting the dots" among various information sources. 
             Moreover, they tend to focus
-            more on dealing with the <i>manifested problems</i> rather than eradicating the problems
-            by going after their <i>root causes</i>. Our research aims at providing the
+            more on dealing with the <i>manifested problems</i> rather than eradicating 
+            their <i>root causes</i>. Our research aims at providing the
             enabling technologies for automated security analytics, with solid theoretical 
             foundation and empirical study. We also investigate ground-breaking new security 
             technologies that could fundamentally change the game of cyber warfare to defender's 
