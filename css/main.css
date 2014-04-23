@@ -9,6 +9,20 @@ footer {
   text-align: center;
 }
 
+.newspan4{
+width: 310px;
+float: left;
+min-height: 1px;
+margin-left: 20px;
+}
+
+.newspan5{
+width: 370px;
+float: left;
+min-height: 1px;
+margin-left: 20px;
+}
+
 .justify {text-align: justify}
 .rightpadded {margin-right: 20px}
 
