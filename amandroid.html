@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Amandroid - Argus Group</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+ 
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+</head>
+<body>
+  <!--[if lt IE 7]>
+  <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+  <![endif]-->
+
+  <div class="container main-content">
+
+  <div class="row">
+    <div class="span12">
+      <a href="#"><img src="img/argus_header.png" alt="Argus Cybersecurity Lab"></a>
+    </div>
+  </div>
+
+  <div class="row">
+    <!-- Navigation Menu -->
+    <div id="navigation-menu" class="span3">
+    </div>
+
+    <!-- Main Content -->
+    <div class="span9">
+      <div class="row">
+        <div class="span9">
+          <h4>Amandroid: A static analysis framework for Android apps</h4>
+          <p class="justify rightpadded">
+             The Android platform is immensely popular. However, malicious or vulnerable applications 
+             have been reported to cause several security problems. Currently there is no effective method 
+             that a market operator can use to vet apps entering a market (<i>e.g.</i>, Google Play).
+          </p>
+          <p class="justify rightpadded">
+             Prior works using static analysis to address Android app security problems more focus on 
+             specific problems and built specialized tools for them. We observe that a large portion of 
+             those security issues can be resolved by addressing one underlying core problem -- capturing 
+             semantic behaviors of the app such as object points-to and control-/data-flow information. 
+             Thus, we designed a new approach to conducting static analysis for vetting Android apps, 
+             and built a generic framework, called Amandroid, which does flow- and context-sensitive 
+             data flow analysis in an inter-component way.
+          </p>
+
+          <p class="justify rightpadded">
+             Our approach shows that a comprehensive (tracking all objects) static analysis method on 
+             Android apps is totally feasible in terms of compotation resources, and the Amandroid 
+             framework is flexible and easy to be extended for many types of specialized security analyses.
+          </p>
+
+          <p class="justify rightpadded">
+             Since Amandroid directly handles Inter-component control and data flows, it can be used 
+             to address security problems that result from interactions among multiple components from 
+             either the same or different apps. Amandroid analysis is sound in that it can provide 
+             assurance of the absence of the specified security problems in an app with well-specified 
+             and reasonable assumptions on the Android runtime and its library.
+
+          </p>
+
+          <p class="justify rightpadded">
+             On top of Amandroid we performed certain specific security analyses, for instance, a) 
+             user password flow tracking, b) intent injection detection, c) crypto API misuse checking. 
+             We apply those analyses on 450 apps collected from Google Play's popular apps and a 
+             third-party security company, and the results show that it is capable of finding real 
+             security issues and efficient enough in terms of analysis time.
+          </p>
+
+          <b>Amandroid 0.2:</b>
+          <a href="http://people.cis.ksu.edu/~fgwei/resources/AmandroidCli-mac64.zip">mac64</a>
+
+          <br>
+          <br>
+
+          <b>Contributors</b>
+          <ul>
+            <li> <a href="http://people.cis.ksu.edu/~fgwei/index.html">Fengguo Wei</a></li>
+            <li> <a href="http://people.cis.ksu.edu/~sroy/">Sankardas Roy</a></li>
+            <li> <a href="http://people.cis.ksu.edu/~robby/">Robby</a></li>
+            <li> <a href="http://people.cis.ksu.edu/~xou/">Xinming (Simon) Ou</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>    
+  </div>
+
+  <footer>
+    &copy; Argus Cyber Security Lab 2013 &bull; 127 Nichols Hall &bull; Manhattan, KS 66506 &bull; 785-532-7774
+  </footer>
+
+  </div> <!-- /container -->
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+  <script src="js/vendor/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+</body>
+</html>
