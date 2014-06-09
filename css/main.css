@@ -1,3 +1,9 @@
+@media (min-width: 960px){
+  .container{
+    width: 960px;
+  }
+}
+
 body {
   background-color: #cccccc;
 }
@@ -9,18 +15,9 @@ footer {
   text-align: center;
 }
 
-.newspan4{
-width: 310px;
-float: left;
-min-height: 1px;
-margin-left: 20px;
-}
-
-.newspan5{
-width: 370px;
-float: left;
-min-height: 1px;
-margin-left: 20px;
+.paper{
+  padding-right: 25px;
+  padding-left: 10px;
 }
 
 .justify {text-align: justify}
@@ -34,40 +31,48 @@ margin-left: 20px;
   background-color: #999999;
 }
 
-.nav-list {
+.list-group {
   color: #ffffff;
   padding: 0 0 0 0;
 }
 
-.nav-list > li {
+.list-group > li {
   font-weight: bold;
   border-top: 1px solid #ffffff;
 }
 
-.nav-list ul {
+.list-group ul {
   margin-left: 5px;
   border: none;
   list-style: none;
 }
 
-.nav-list ul li {
-  padding-left: 20px;
+.list-group ul li {
+  padding-left: 0px;
+  padding-right: 10px;
 }
 
-.nav-list a {
+.list-group a {
   padding-left: 10px;
   margin: 0 0 0 0 !important; 
   color: #ffffff;
   text-shadow: none !important;
 }
 
-.nav-list a:hover {
+.list-group a:hover {
   color: #407794;
 }
 
 .main-content {
   background-color: #e7e8e9;
-} 
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.blog-siderbar{
+  padding-left: 30px;
+  padding-right:0px;
+}
 
 .section-header {
   color: #ffffff;
@@ -100,4 +105,7 @@ margin-left: 20px;
 .paper-location {
 }
 
+.widget{
+  padding-left: 0px;
+}
 
