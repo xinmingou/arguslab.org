@@ -8,11 +8,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>Argus Group</title>
   <meta name="description" content="">
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
   
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
   <link rel="stylesheet" href="css/main.css">
 
   <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
@@ -25,20 +26,20 @@
   <div class="container main-content">
 
   <div class="row">
-    <div class="span12">
+    <div class="col-md-12">
       <a href="#"><img src="img/argus_header.png" alt="Argus Cybersecurity Lab"></a>
     </div>
   </div>
 
   <div class="row">
     <!-- Navigation Menu -->
-    <div id="navigation-menu" class="span3">
+    <div id="navigation-menu" class="col-md-3 blog-siderbar">
     </div>
 
     <!-- Main Content -->
-    <div class="span9">
+    <div class="col-md-9">
       <div class="row">
-        <div class="span9 text-center">
+        <div class="col-md-12 text-center">
           <div class="slideshow">
           <?php
             if ($dir = opendir('img/rotator')) {
@@ -59,7 +60,7 @@
       </div>
       <div class="row">
         <!-- About Us -->
-        <div class="span6">
+        <div class="col-md-8">
           <h6 class="section-header">About Us</h6>
           <p class="justify">
             The Argus group was founded by <a href="http://people.cis.ksu.edu/%7Exou/">
@@ -98,7 +99,7 @@
           <b>Start from REAL problems, create solutions that LAST</b>
         </div>
         <!-- In The News Widget -->
-        <div class="span3">
+        <div class="col-md-4 widget">
           <h6 class="section-header">News</h6>
           <div>
           <ul>
