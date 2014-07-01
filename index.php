@@ -103,7 +103,7 @@
           <h6 class="section-header">News</h6>
           <div>
           <ul>
-            <li>Our <a ref="anthrosec.html">anthropology project</a> was 
+            <li>Our <a href="anthrosec.html">anthropology project</a> was 
                 <a href="http://first.org/conference/2014/program#pusing-anthropology-to-study-security-incident-respons">
                       presented at the annual FIRST conference</a> in Boston.
             </li>
