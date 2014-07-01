@@ -1,6 +1,6 @@
 ### Papers
 
-  1. [An anthropological approach to studying CSIRTs.](http://people.cis.ksu.edu/~xou/publications/spsi_csirts_submission.pdf) Sathya Chandran Sundaramurthy, John McHugh, Xinming Ou, S. Raj Rajagopalan, and Michael Wesch. Submitted to IEEE Security &amp; Privacy Special Issue on CSIRTs.
+  1. [An anthropological approach to studying CSIRTs.](http://people.cis.ksu.edu/~xou/publications/spsi_csirts_preprint.pdf) Sathya Chandran Sundaramurthy, John McHugh, Xinming Ou, S. Raj Rajagopalan, and Michael Wesch. To appear in IEEE Security &amp; Privacy Special Issue on CSIRTs.
   - After we knew it: Empirical study and modeling of cost-effectiveness of exploiting prevalent known vulnerabilities across iaas cloud. Su Zhang, Xinwen Zhang, and Xinming Ou.  9th ACM Symposium on Information, Computer and Communications Security (ASIACCS), Kyoto, Japan, June, 2014.
   - A Model for Analyzing the Effect of Moving Target Defenses on Enterprise Networks. Rui Zhuang, Scott A. DeLoach, and Xinming Ou. 9th Cyber and Information Security Research Conference (CSIRC), Oak Ridge, Tennessee, USA, April, 2014.
   - [Compiling abstract specifications into concrete systems - bringing order to the cloud.](http://people.cis.ksu.edu/~xou/publications/ancor-tr.pdf) Ian Unruh, Alexandru G. Bardas, Rui Zhuang, Xinming Ou, and Scott A. DeLoach. Kansas State University Computing and Information Sciences Technical Report, 2013-2.
