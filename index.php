@@ -103,12 +103,16 @@
           <h6 class="section-header">News</h6>
           <div>
           <ul>
+            <li>Our <a ref="anthrosec.html">anthropology project</a> was 
+                <a href="http://first.org/conference/2014/program#pusing-anthropology-to-study-security-incident-respons">
+                      presented at the annual FIRST conference</a> in Boston.
+            </li>
             <li>The <a href="anthrosec.html">anthropology project</a> received $700K funding from the National Science Foundation.<br>
                 <a href="http://www.k-state.edu/media/newsreleases/nov13/anthrocomp11713.html?id=10987&category=research&referredBy=email">News Release</a>.
             </li>
             <li>
-                 The <a href="http://nmslab.sce.umkc.edu/kansec/">fourth KanSec Workshop</a>
-                 was held at the University of Missouri-Kansas City.
+                 The <a href="http://www.csce.uark.edu/~mqhuang/cansec/">fifth CANSec Workshop</a>
+                 was held at the University of Arkansas.
              </li>
              <li>
                  Prof. Xinming Ou received a $606K grant from AFOSR through the DURIP program.
