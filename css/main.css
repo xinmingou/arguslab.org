@@ -20,7 +20,9 @@ footer {
   padding-left: 10px;
 }
 
-.justify {text-align: justify}
+.justify {text-align: justify;
+    font-size: 14px;
+}
 .rightpadded {margin-right: 20px}
 
 .left-nav {
