@@ -86,6 +86,20 @@ footer {
   text-align: center;
 }
 
+.adjust-border1{
+  padding-left: 0px;
+  padding-right:5px;
+}
+
+.text-adjust {
+  margin-left: 15px;
+}
+
+.text-adjust2 {
+  margin-left: 9px;
+}
+
+
 .profile-pic {
   float: left;
   margin-right: 5px;
@@ -107,7 +121,38 @@ footer {
 .paper-location {
 }
 
-.widget{
+.widget {
   padding-left: 0px;
 }
+.head-image {
+  max-width: 100%;
+  min-width: 300px;
+  height: auto;
+}
+.random-images {
+  position: relative;
+  max-width: 100%;
+  min-width: 300px;
+  height: auto;
+}
+.random-images img {  
+    padding: 15px;    
+    width:  200px; 
+    height: 200px; 
+    top:  0; 
+    left: 0 
+} 
+#slideshow-wrapper {
+width:100%;
+min-width:600px;
+}
 
+.slideshow {
+width:100%;
+}
+.slideshow div,
+.slideshow div img {
+width:100% !important;
+min-width:100%;
+height:auto;
+}

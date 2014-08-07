@@ -8,8 +8,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>Argus Group</title>
   <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap-responsive.css" rel="stylesheet"> 
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
   
   <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -17,6 +17,9 @@
   <link rel="stylesheet" href="css/main.css">
 
   <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+  <script type="text/javascript" src="js/jquery.cycle.all.js"></script>
+
   </head>
 <body>
   <!--[if lt IE 7]>
@@ -27,7 +30,7 @@
 
   <div class="row">
     <div class="col-md-12">
-      <a href="#"><img src="img/argus_header.png" alt="Argus Cybersecurity Lab"></a>
+      <a href="#"><img class="head-image" src="img/argus_header.png" alt="Argus Cybersecurity Lab"></a>
     </div>
   </div>
 
@@ -39,16 +42,16 @@
     <!-- Main Content -->
     <div class="col-md-9">
       <div class="row">
-        <div class="col-md-12 text-center">
+        <div class="col-md-12 text-center justify">
           <div class="slideshow">
-          <?php
+          <?php 
             if ($dir = opendir('img/rotator')) {
               while (false != ($img = readdir($dir))) {
                 $extension = pathinfo($img);
                 if (($img != ".") && ($img != "..") && ($extension['extension'] == "jpg")) {
                   if (file_exists('img/rotator/thumbnails/' . $img)) {
                     print '<a href="img/rotator/' . $img . '">';
-                    print '<img width="700" height="350" src="img/rotator/thumbnails/' . $img . '" alt="Argus Cybersecurity Lab" />';
+                    print '<img class="random-images" src="img/rotator/thumbnails/' . $img . '" alt="Argus Cybersecurity Lab" />';
                     print '</a>';
                   } 
                 }
@@ -62,7 +65,7 @@
         <!-- About Us -->
         <div class="col-md-8">
           <h6 class="section-header">About Us</h6>
-          <p class="justify">
+          <p class="justify text-adjust rightpadded">
             The Argus group was founded by <a href="http://people.cis.ksu.edu/%7Exou/">
             Dr. Xinming (Simon) Ou</a> in 2006 to carry out cyber security research. Our
             focus is on the defense aspect of the cyber space, and our philosophy is to
@@ -72,7 +75,7 @@
             pressing problems of the time, and provides the scientific basis for solutions
             that can stand the test of time.
           </p>
-          <p class="justify">
+          <p class="justify text-adjust rightpadded">
             We believe that successful cyber defense can only be achieved through automated 
             coordination of various observation and action points in a network environment,
             and through fundamentally changing the way IT systems are created and managed
@@ -88,7 +91,7 @@
             technologies that could fundamentally change the game of cyber warfare to defender's 
             advantage. 
           </p>
-          <p class="justify">
+          <p class="justify text-adjust rightpadded">
             Argus research has been supported by the National Science Foundation, 
             Department of Defense, Department of Energy, National Institute of
             Standards and Technology, and HP Labs.
@@ -96,11 +99,11 @@
             in Greek mythology, who has a hundred eyes that constantly watch for enemies.
           </p>
           <h6 class="section-header">Our Motto</h6>
-          <b>Start from REAL problems, create solutions that LAST</b>
+          <b class="text-adjust justify">Start from REAL problems, create solutions that LAST</b>
         </div>
         <!-- In The News Widget -->
         <div class="col-md-4 widget">
-          <h6 class="section-header">News</h6>
+          <h6 class="section-header text-adjust">News</h6>
           <div>
           <ul>
             <li>Our <a href="anthrosec.html">anthropology project</a> was 
@@ -149,10 +152,13 @@
   <script type="text/javascript">
     $(window).load(function() {
       $('.slideshow').cycle({
+        slideResize: true,
+        containerResize: true,
         speed: 750,
         fx: 'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
-        width: 700,
-        height: 350
+        width: 'auto',
+        height: 'auto',
+        fit: 1,
       });
     });
 
