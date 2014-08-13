@@ -1,4 +1,4 @@
 Options -Indexes
-
+DirectoryIndex index.php
 ErrorDocument 404 http://www.arguslab.org/404.html
 
