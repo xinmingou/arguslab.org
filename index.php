@@ -8,8 +8,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>Argus Group</title>
   <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap-responsive.css" rel="stylesheet">
+  
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
   
   <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -27,7 +28,7 @@
 
   <div class="row">
     <div class="col-md-12">
-      <a href="#"><img src="img/argus_header.png" alt="Argus Cybersecurity Lab"></a>
+      <a href="#"><img class="head-image" src="img/argus_header.png" alt="Argus Cybersecurity Lab"></a>
     </div>
   </div>
 
@@ -48,7 +49,7 @@
                 if (($img != ".") && ($img != "..") && ($extension['extension'] == "jpg")) {
                   if (file_exists('img/rotator/thumbnails/' . $img)) {
                     print '<a href="img/rotator/' . $img . '">';
-                    print '<img width="700" height="350" src="img/rotator/thumbnails/' . $img . '" alt="Argus Cybersecurity Lab" />';
+                    print '<img class="random-images" src="img/rotator/thumbnails/' . $img . '" alt="Argus Cybersecurity Lab" />';
                     print '</a>';
                   } 
                 }
@@ -151,8 +152,9 @@
       $('.slideshow').cycle({
         speed: 750,
         fx: 'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
-        width: 700,
-        height: 350
+        width: 'auto',
+        height: 'auto',
+        fit: 1,
       });
     });
 
