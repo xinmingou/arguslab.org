@@ -153,7 +153,6 @@
         fx: 'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
         width: 'auto',
         height: 'auto',
-        fit: 1,
       });
     });
 
