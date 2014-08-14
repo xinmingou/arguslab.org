@@ -48,7 +48,7 @@
                 if (($img != ".") && ($img != "..") && ($extension['extension'] == "jpg")) {
                   if (file_exists('img/rotator/thumbnails/' . $img)) {
                     print '<a href="img/rotator/' . $img . '">';
-                    print '<img class="random-images" src="img/rotator/thumbnails/' . $img . '" alt="Argus Cybersecurity Lab" />';
+                    print '<img src="img/rotator/thumbnails/' . $img . '" alt="Argus Cybersecurity Lab" />';
                     print '</a>';
                   } 
                 }
