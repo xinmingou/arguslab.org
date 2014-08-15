@@ -9,6 +9,7 @@
   <title>Argus Group</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap-responsive.css" rel="stylesheet"> 
   
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
   
@@ -48,7 +49,7 @@
                 if (($img != ".") && ($img != "..") && ($extension['extension'] == "jpg")) {
                   if (file_exists('img/rotator/thumbnails/' . $img)) {
                     print '<a href="img/rotator/' . $img . '">';
-                    print '<img src="img/rotator/thumbnails/' . $img . '" alt="Argus Cybersecurity Lab" />';
+                    print '<img width="700" height="350" src="img/rotator/thumbnails/' . $img . '" alt="Argus Cybersecurity Lab" />';
                     print '</a>';
                   } 
                 }
@@ -151,8 +152,9 @@
       $('.slideshow').cycle({
         speed: 750,
         fx: 'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
-        width: 'auto',
-        height: 'auto',
+        width: 700,
+        height: 350,
+        fit: 1,
       });
     });
 
