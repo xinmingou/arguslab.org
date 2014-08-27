@@ -152,8 +152,8 @@
       $('.slideshow').cycle({
         speed: 750,
         fx: 'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
-        width: 700,
-        height: 350,
+        width: 700 !important;
+        height: 350 !important;
         fit: 1,
       });
     });
