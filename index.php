@@ -46,10 +46,10 @@
             if ($dir = opendir('img/rotator')) {
               while (false != ($img = readdir($dir))) {
                 $extension = pathinfo($img);
-                if (($img != ".") && ($img != "..") && ($extension['extension'] == "jpg")) {
+                if (($img != ".") && ($img != "..")) {
                   if (file_exists('img/rotator/thumbnails/' . $img)) {
                     print '<a href="img/rotator/' . $img . '">';
-                    print '<img width="700" height="350" src="img/rotator/thumbnails/' . $img . '" alt="Argus Cybersecurity Lab" />';
+                    print '<img class="head-image" src="img/rotator/thumbnails/' . $img . '" alt="Argus Cybersecurity Lab" />';
                     print '</a>';
                   } 
                 }
@@ -152,8 +152,8 @@
       $('.slideshow').cycle({
         speed: 750,
         fx: 'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
-        width: 700 !important;
-        height: 350 !important;
+        width: 'auto,
+        height: 'auto',
         fit: 1,
       });
     });
