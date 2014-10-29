@@ -152,7 +152,7 @@
       $('.slideshow').cycle({
         speed: 750,
         fx: 'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
-        width: 'auto,
+        width: 'auto',
         height: 'auto',
         fit: 1,
       });
