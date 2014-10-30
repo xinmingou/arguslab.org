@@ -117,17 +117,13 @@
                 <a href="http://www.k-state.edu/media/newsreleases/nov13/anthrocomp11713.html?id=10987&category=research&referredBy=email">News Release</a>.
             </li>
             <li>
-                 The <a href="http://www.csce.uark.edu/~mqhuang/cansec/">fifth CANSec Workshop</a>
-                 was held at the University of Arkansas.
-             </li>
-             <li>
                  Prof. Xinming Ou received a $606K grant from AFOSR through the DURIP program.
                  <a href="http://www.wpafb.af.mil/news/story.asp?id=123353723">News Release</a>.
-             </li>
-             <li>
+            </li>
+            <li>
                  <a href="http://cacm.acm.org/news/149748-adaptive-networks-aim-to-thwart-cybercriminals/fulltext"> 
                  CACM's coverage</a> on our moving-target defense research.
-             </li>
+            </li>
           </ul>
           </div>
         </div>
