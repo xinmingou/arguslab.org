@@ -104,6 +104,11 @@
           <h6 class="section-header">News</h6>
           <div>
           <ul>
+            <li>The <a href="http://amandroid.sireum.org/">Amandroid</a> work will be presented at ACM CCS'14. 
+            </li>
+            <li>The <a href="http://cansec.ittc.ku.edu/">Sixth Central Area Networking and Security Workshop</a> (CANSec) 
+                 was held at KU on Oct 25-26.
+            </li>
             <li>Our <a href="anthrosec.html">anthropology project</a> was 
                 <a href="http://first.org/conference/2014/program#pusing-anthropology-to-study-security-incident-respons">
                       presented at the annual FIRST conference</a> in Boston.
