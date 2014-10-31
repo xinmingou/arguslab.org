@@ -42,22 +42,19 @@
       <div class="row">
         <div class="col-md-12">
           <h3>Software Produced from Our Research</h3>
-          <h4><a href="mulval.html">MulVAL: A logic-based enterprise network security analyzer</a></h4>
+
+          <h4><a href="http://amandroid.sireum.org/">Amandroid: A static analysis framework for Android apps</a></h4>
           <p>
-            The MulVAL project aims at providing automated tools to aid in security 
-            administration of enterprise networks. It builds upon a logic-based attack 
-            graph generator, leverages existing standard security information databases, 
-            and conducts comprehensive and quantitative analysis to help system 
-            administrators to harden the security of an enterprise network in a 
-            cost-effective manner. 
+            Amandroid is a precise and general inter-component data flow analysis framework for 
+            security vetting of Android apps. It builds an Inter-component Data Flow Graph (IDFG)
+            which captures data flow across component boundaries, <i>e.g.</i>, through intent passing.
+            It also builds a data dependence graph (DDG) of the app from the IDFG. One can use
+            this generic data-flow framework to perform various types of security analysis for Android
+            apps, by writing a small plugin that captures the security properties of interest. Amandroid
+            analysis is sound in that it creates an over-approximation of an app's behavior, under clearly
+            defined and reasonable assumptions on the Android runtime environment.
           </p>
-          <h4><a href="snips.html">SnIPS: Snort Intrusion Analysis using Proof Strengthening</a></h4>
-          <p>
-            This project focuses on the problem of how to automatically identify 
-            high-confident attack traces from large amounts of system monitoring data, 
-            through a simple logic with the capability of reasoning about uncertainty 
-            which is inherent in real-time security analysis. 
-          </p>
+
           <h4><a href="http://arguslab.github.io/ancor/">ANCOR: Automated eNterprise network COmpileR</a></h4>
           <p>
             ANCOR is a cloud-based IT system generation and management framework. It uses
@@ -69,24 +66,32 @@
             adaptation of the IT system, opening doors for new security techniques such as
             moving-target defense.
           </p>
-          <h4><a href="amandroid.html">Amandroid: A static analysis framework for Android apps</a></h4>
+
+          <h4><a href="snips.html">SnIPS: Snort Intrusion Analysis using Proof Strengthening</a></h4>
           <p>
-            Amandroid is a precise and general inter-component data flow analysis framework for 
-            security vetting of Android apps. It builds an Inter-component Data Flow Graph (IDFG)
-            which captures data flow across component boundaries, <i>e.g.</i>, through intent passing.
-            It also builds a data dependence graph (DDG) of the app from the IDFG. One can use
-            this generic data-flow framework to perform various types of security analysis for Android
-            apps, by writing a small plugin that captures the security properties of interest. Amandroid
-            analysis is sound in that it creates an over-approximation of an app's behavior, under clearly
-            defined and reasonable assumptions on the Android runtime environment.
+            This project focuses on the problem of how to automatically identify 
+            high-confident attack traces from large amounts of system monitoring data, 
+            through a simple logic with the capability of reasoning about uncertainty 
+            which is inherent in real-time security analysis. 
           </p>
+
+          <h4><a href="mulval.html">MulVAL: A logic-based enterprise network security analyzer</a></h4>
+          <p>
+            The MulVAL project aims at providing automated tools to aid in security 
+            administration of enterprise networks. It builds upon a logic-based attack 
+            graph generator, leverages existing standard security information databases, 
+            and conducts comprehensive and quantitative analysis to help system 
+            administrators to harden the security of an enterprise network in a 
+            cost-effective manner. 
+          </p>
+
         </div>
       </div>
     </div>    
   </div>
 
   <footer>
-    &copy; Argus Cyber Security Lab 2013 &bull; 127 Nichols Hall &bull; Manhattan, KS 66506 &bull; 785-532-7774
+    &copy; Argus Cyber Security Lab 2014 &bull; 127 Nichols Hall &bull; Manhattan, KS 66506 &bull; 785-532-7774
   </footer>
 
   </div> <!-- /container -->
