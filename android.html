@@ -45,11 +45,12 @@
           <p class="justify rightpadded text-adjust">
           We conduct research to apply static analysis on Dalvik byte code of both Android applications
           and libraries, for the purpose of identifying potential malicious behaviors or program vulnerabilities.
-          Our goal is two-fold: 1) the analysis needs to be sound, where the analysis result is an
-          <i>over approximation</i> of an app's behavior with well specified assumptions on the app's runtime environments;
-          2) the analysis precision can be configured flexibly based on the available
-          computing resources. Both goals are important to yield pracitcal Android app vetting tools that
-          can be used by app market operators or companies to prevent potentially dangerous apps from getting onto users' devices.
+          Our goal is two-fold: 1) the analysis needs to be generic and flexible to be customizable to address
+          new security problems;
+          2) the analysis needs to capture inter-component communication and the associated control/data flows. 
+          Both goals are important to yield practical Android app vetting tools that
+          can be used by app market operators or companies to prevent potentially dangerous apps from getting 
+          onto users' devices.
           </p>
           <b class="text-adjust2">Faculty:</b> 
           <ul>
@@ -58,6 +59,9 @@
             </li>
             <li>
               <a href="http://people.cis.ksu.edu/~robby/">Dr. Robby</a>
+            </li>
+            <li>
+              <a href="http://people.cis.ksu.edu/~rvprasad/">Dr. Venkatesh-Prasad Ranganath</a>
             </li>
             <li>
               <a href="http://people.cis.ksu.edu/~sroy/">Dr. Sankar Roy</a>
@@ -75,14 +79,38 @@
               <a href="http://people.cis.ksu.edu/~fgwei/">Fengguo Wei</a>
             </li>
           </ul>
+          <b class="text-adjust2">Papers and Presentations:</b> 
+          <ul>
+         <li> 
+              <b>Amandroid: A precise and general inter-component data flow analysis framework for security vetting of Android apps.</b>
+              Fengguo Wei, Sankardas Roy, Xinming Ou, and Robby. In
+              <i>21st ACM Conference on Computer and Communications Security (CCS 2014)</i>, to appear. 
+              <a href="http://people.cis.ksu.edu/~xou/publications/ccs14.pdf">PrePrint</a>.
+         </li>
+
+          </ul>
+
           <b class="text-adjust2">Software Release:</b> <a href="http://amandroid.sireum.org/">Amandroid</a>
+          <br>
+          <br>
+
+          <b class="text-adjust2">Acknowledgment:</b>
+          <blockquote class="justify rightpadded">
+            This research is supported by the National Science Foundation under Grant No. 
+            <a href="http://www.nsf.gov/awardsearch/showAward?AWD_ID=0954138">0954138</a>
+            and <a href="http://www.nsf.gov/awardsearch/showAward?AWD_ID=1018703">1018703</a>.
+            Any opinions, findings and 
+            conclusions or recommendations expressed in this material are those of the authors and 
+            do not necessarily reflect the views of the sponsors.
+          </blockquote>
+
         </div>
       </div>
     </div>    
   </div>
 
   <footer>
-    &copy; Argus Cyber Security Lab 2013 &bull; 127 Nichols Hall &bull; Manhattan, KS 66506 &bull; 785-532-7774
+    &copy; Argus Cyber Security Lab 2014 &bull; 127 Nichols Hall &bull; Manhattan, KS 66506 &bull; 785-532-7774
   </footer>
 
   </div> <!-- /container -->
