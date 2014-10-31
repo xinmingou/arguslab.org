@@ -100,7 +100,7 @@
           <b>Start from REAL problems, create solutions that LAST</b>
         </div>
         <!-- In The News Widget -->
-        <div class="col-md-4 widget">
+        <div class="col-md-4">
           <h6 class="section-header">News</h6>
           <div>
           <ul>
