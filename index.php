@@ -64,7 +64,7 @@
         <div class="col-md-8">
           <h6 class="section-header">About Us</h6>
           <p class="justify">
-            The Argus group was founded by <a href="http://people.cis.ksu.edu/%7Exou/">
+            The Argus group was founded by <a href="http://www.cse.usf.edu/~xou/">
             Dr. Xinming (Simon) Ou</a> in 2006 to carry out cyber security research. Our
             focus is on the defense aspect of the cyber space, and our philosophy is to
             start from real problems, and create solutions that last. Our research
@@ -91,8 +91,8 @@
           </p>
           <p class="justify">
             Argus research has been supported by the National Science Foundation, 
-            Department of Defense, Department of Energy, National Institute of
-            Standards and Technology, and HP Labs.
+            Department of Defense, Department of Homeland Security, Department of Energy, 
+            National Institute of Standards and Technology, and HP Labs.
             The group is named after the giant <a href="https://en.wikipedia.org/wiki/Argus_Panoptes">Argus</a>
             in Greek mythology, who has a hundred eyes that constantly watch for enemies.
           </p>
@@ -104,9 +104,16 @@
           <h6 class="section-header">News</h6>
           <div>
           <ul>
-            <li>The <a href="http://amandroid.sireum.org/">Amandroid</a> work will be presented at ACM CCS'14. 
+            <li>Daniel and Alex will be presenting their research in the MTD workshop and CPS-SPC workshop
+                co-located with ACM CCS. 
             </li>
-            <li>The <a href="http://cansec.ittc.ku.edu/">Sixth Central Area Networking and Security Workshop</a> (CANSec) 
+            <li>Yuping presented his results on using fuzzy hashing in malware analysis in the CSET workshop
+                co-located with USENIX Security'15.
+            </li>
+            <li>Sathya's paper won the Distinguished Paper Award at SOUPS'15.</li>
+            <li>The <a href="http://amandroid.sireum.org/">Amandroid</a> work was presented at ACM CCS'14. 
+            </li>
+            <!--li>The <a href="http://cansec.ittc.ku.edu/">Sixth Central Area Networking and Security Workshop</a> (CANSec) 
                  was held at KU on Oct 25-26.
             </li>
             <li>Our <a href="anthrosec.html">anthropology project</a> was 
@@ -123,7 +130,7 @@
             <li>
                  <a href="http://cacm.acm.org/news/149748-adaptive-networks-aim-to-thwart-cybercriminals/fulltext"> 
                  CACM's coverage</a> on our moving-target defense research.
-            </li>
+            </li-->
           </ul>
           </div>
         </div>
@@ -132,7 +139,7 @@
   </div>
 
   <footer>
-    &copy; Argus Cyber Security Lab 2014 &bull; 127 Nichols Hall &bull; Manhattan, KS 66506 &bull; 785-532-7774
+    &copy; Argus Cyber Security Lab 2015
   </footer>
 
   </div> <!-- /container -->
