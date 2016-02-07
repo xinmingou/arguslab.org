@@ -146,7 +146,7 @@
   </div>
 
   <footer>
-    &copy; Argus Cyber Security Lab 2015
+    &copy; Argus Cyber Security Lab 2016
   </footer>
 
   </div> <!-- /container -->
