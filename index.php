@@ -104,40 +104,14 @@
           <h6 class="section-header">News</h6>
           <div>
           <ul>
-            <li><a href="http://cis.ksu.edu/%7Ebardasag/">Alex</a> and 
-                <a href="http://www.cse.usf.edu/~xiaolongw/">Daniel</a>
-                will be presenting their research in the 
-                <a href="http://mtd.mobicloud.asu.edu/">MTD workshop</a> and 
-                <a href="http://www.utdallas.edu/~sgt150130/">CPS-SPC workshop</a>
-                co-located with <a href="http://www.sigsac.org/ccs/CCS2015/">ACM CCS</a>. 
-            </li>
-            <li><a href="http://www.cse.usf.edu/~yupingli/">Yuping</a> 
-                presented his results on using fuzzy hashing in malware analysis in the 
-                <a href="https://www.usenix.org/conference/cset15">CSET workshop</a>
-                co-located with USENIX Security'15.
-            </li>
-            <li><a href="http://www.cse.usf.edu/~sathyachandr/">Sathya</a>'s paper won 
-                the Distinguished Paper Award at <a href="https://cups.cs.cmu.edu/soups/2015/">SOUPS'15</a>.</li>
-            <li>The <a href="http://amandroid.sireum.org/">Amandroid</a> work was presented at <a href="http://www.sigsac.org/ccs/CCS2014/">ACM CCS'14</a>. 
-            </li>
-            <!--li>The <a href="http://cansec.ittc.ku.edu/">Sixth Central Area Networking and Security Workshop</a> (CANSec) 
-                 was held at KU on Oct 25-26.
-            </li>
-            <li>Our <a href="anthrosec.html">anthropology project</a> was 
-                <a href="http://first.org/conference/2014/program#pusing-anthropology-to-study-security-incident-respons">
-                      presented at the annual FIRST conference</a> in Boston.
-            </li>
-            <li>The <a href="anthrosec.html">anthropology project</a> received $700K funding from the National Science Foundation.<br>
-                <a href="http://www.k-state.edu/media/newsreleases/nov13/anthrocomp11713.html?id=10987&category=research&referredBy=email">News Release</a>.
+            <li><a href="http://www.cse.usf.edu/~sathyachandr/">Sathya</a> presented his
+	        <a href="https://www.usenix.org/conference/soups2016/technical-sessions/presentation/sundaramurthy">paper</a>
+                at <a href="https://www.usenix.org/conference/soups2016">SOUPS'16</a>.</li>
             </li>
             <li>
-                 Prof. Xinming Ou received a $606K grant from AFOSR through the DURIP program.
-                 <a href="http://www.wpafb.af.mil/news/story.asp?id=123353723">News Release</a>.
+              Dr. Ou gave a <a href="http://www.gramsec.uni.lu/keynote.php">keynote speech</a>
+	      at <a href="http://www.gramsec.uni.lu/">GramSec'16</a>
             </li>
-            <li>
-                 <a href="http://cacm.acm.org/news/149748-adaptive-networks-aim-to-thwart-cybercriminals/fulltext"> 
-                 CACM's coverage</a> on our moving-target defense research.
-            </li-->
           </ul>
           </div>
         </div>
